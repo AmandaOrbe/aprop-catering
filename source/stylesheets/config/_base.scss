@@ -11,6 +11,7 @@
 
 html{
   font-size: 62.5%; //1rem = 10px,  10/16 = 62,5%
+  color: black;
 
   @include respond(landscape) { // width < 1200
     font-size: 56.25% !important; //1rem = 9px,  9/16 = 56,25%
@@ -27,4 +28,10 @@ html{
   @include respond(big-screen) {
     font-size: 75% !important; //1rem = 12px,  12/16 = 75%
   }
+}
+
+body{
+  color: black;
+  position: relative;
+  background-color: orange;
 }

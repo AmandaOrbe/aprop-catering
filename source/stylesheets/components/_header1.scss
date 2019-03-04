@@ -1,25 +1,26 @@
 .header1{
-  margin-top: 2rem;
-  border-left: 1px solid $gray;
-  padding-left: 2rem;
-  max-width: 42rem;
+ background-color: $yellow;
+ color: black;
+ height: 100vh;
 
 
-  h1{
-  font-family: $serif-font;
-  font-size: 3.8rem;
-  font-weight: 700;
-  }
 
-  &__line{
-    &,
-    &::before,
-    &::after{
-      display: inline-block;
-      width: 15rem;
-      height: 5px;
-      background-color: $orange;
+h1{
+  color: black;
+  font-family: $headers-font;
+  font-weight: 800;
+  font-size: $fsize-bigger;
+}
 
-    }
-  }
+  // &__line{
+  //   &,
+  //   &::before,
+  //   &::after{
+  //     display: inline-block;
+  //     width: 15rem;
+  //     height: 5px;
+  //     background-color: $orange;
+
+  //   }
+  // }
 }
