@@ -1,11 +1,17 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700|Montserrat:100" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,500,800" rel="stylesheet");
 // Define fonts for body and headers
-$body-font: "Merriweather", "serif";
-$headers-font: "Montserrat", "Helvetica", "sans-serif";
+$body-font: "Work Sans", "serif";
+$headers-font: "Work Sans", "serif";
 
-$serif-font: "Merriweather", "serif";
-$display-font: "Montserrat", "Helvetica", "sans-serif";
+$font-weight-bold: 800;
+$font-weight-medium: 500;
+
+$fsize-bigger: 4.8rem;
+$fsize-big: 3.6rem;
+$fsize-medium: 2.4rem;
+$fsize-small: 1.8rem;
+
 // $sans-font: "Open Sans", "Helvetica", "sans-serif";
 
 
@@ -20,3 +26,47 @@ $display-font: "Montserrat", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+h1{
+  color: black;
+  font-family: $headers-font;
+  font-weight: 800;
+  font-size: $fsize-bigger;
+}
+
+h2{
+  font-family: $headers-font;
+  font-weight: $font-weight-medium;
+  font-size: $fsize-medium;
+}
+
+h3{
+  font-family: $headers-font;
+  font-weight: $font-weight-bold;
+  font-size: $fsize-big;
+}
+
+h4{
+  font-family: $headers-font;
+  font-weight: $font-weight-bold;
+  font-size: $fsize-small;
+}
+
+p{
+  font-family: $body-font;
+  font-weight: $font-weight-medium;
+  font-size: $fsize-small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
