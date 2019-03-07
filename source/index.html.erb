@@ -6,12 +6,12 @@
   <h2><%= t.titulo2_b  %></h2>
 </div>
 <section class="home_content">
-  <div class="content_title">
-    <h3><%= t.titulo3 %> </h3>
-    <div class="icons-row">
+  <h3 class="content_title margin5 margin-bottom5"><%= t.titulo3 %> </h3>
+  <div class="icons-row">
       <%= partial(:'components/icon-card', :locals => { :number => "1", :image => "images/menu.png",  :text => t.icon1 }) %>
-
-    </div>
+      <%= partial(:'components/icon-card', :locals => { :number => "2", :image => "images/women.png",  :text => t.icon2 }) %>
+      <%= partial(:'components/icon-card', :locals => { :number => "3", :image => "images/responsive.png",  :text => t.icon3 }) %>
+      <%= partial(:'components/icon-card', :locals => { :number => "4", :image => "images/serving-dish.png",  :text => t.icon4 }) %>
   </div>
 </section>
 
